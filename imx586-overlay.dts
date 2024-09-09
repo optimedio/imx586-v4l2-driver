@@ -48,8 +48,8 @@
 			#size-cells = <0>;
 			status = "okay";
 
-			cam_node: imx586@1A {
-				reg = <0x1A>;
+			cam_node: imx586@6C {
+				reg = <0x6C>;
 				status = "okay";
 				compatible = "sony,imx586";
 				clocks = <&cam1_clk>;
