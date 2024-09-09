@@ -1,0 +1,5 @@
+#!/bin/sh
+
+dtc -Wno-interrupts_property -@ -I dts -O dtb -o imx586.dtbo imx586-overlay.dts
+
+install -m 751 imx586.dtbo /boot/overlays/
